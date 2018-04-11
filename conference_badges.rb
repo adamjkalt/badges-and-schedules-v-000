@@ -1,4 +1,4 @@
-def batch_badge_creator
+def badge_maker
   attendees.each do |name|
   puts "Hello, my name is #{name}."
 end
