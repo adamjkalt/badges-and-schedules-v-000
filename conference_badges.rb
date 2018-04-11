@@ -1,5 +1,6 @@
-def batch_badge_creator
-  puts "Hello, my name is #{}.",
+def batch_badge_creator(attendees)
+  attendees.each do |name|
+  puts "Hello, my name is #{name}.",
 end
 
 def assign_rooms
